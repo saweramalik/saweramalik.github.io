@@ -1,0 +1,178 @@
+
+
+:root{
+ --primary-color :#232323; 
+ --primary-font:Libre_Baskerville.serif ;
+ --secondary-font:"Open Sans".sans-serif;
+ --white-color:white ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   color:var(--primary-color) ;
+}
+h1,h2,h3{Libre_Baskerville: .serif;
+    font-family:Libre_Baskerville.serif ;
+}
+.wrapper{
+   max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 17px;
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 15px;
+
+}
+ul li{
+    list-style: none;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+ .hero .flex{
+    flex-direction: column;
+ }
+
+.hero{
+    height: 100vh;
+}
+header{
+    background-color: var(--white-color);
+    height: 90px;
+    width: 100%;
+    box-shadow: 1px 9px 40px -5px rgba(0,0,0,0.58);
+    position: fixed;
+    z-index: 9999;
+    
+}
+.wrapper2{max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.hero .flex h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+header .flex {
+    justify-content: space-between;
+}
+nav ul li {
+    padding: 0px 10px 
+}
+nav ul li a{
+       padding: 10px 0px;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid var(--primary-color);
+}
+.hero.flex p{
+    font-size: 50px;
+}
+.grid{
+    
+    grid-template-columns:  repeat(2,1fr);
+ display: grid;
+ gap: 45px;
+}
+img{
+    width: 100%;
+}
+.text{
+    margin-top: 25px;
+}
+.text h2 {
+    
+    margin-bottom: 25px;
+}
+p{
+    margin-bottom: 15px;
+}
+ .text span{
+    color: rgb(114, 113, 113);
+}
+.text p{
+    color:rgb(114, 113, 113) ;
+    font-size: 18px;
+}
+
+
+.cta{
+    background-color: antiquewhite;
+    padding : 80px 0px;
+
+    
+}
+.text h1{
+    margin-bottom: 20px;
+}
+.cta .grid {
+    
+    align-items: center;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px 40px;
+
+    border-radius: 50px;
+    width: 10px;
+}
+.text p{
+    margin-bottom: 80;
+ padding-bottom: 80px;
+}
+    main.flex{
+        flex-direction: column;
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+    .images img{
+        margin: 10px;
+    
+        
+        
+    }
+    main .images{
+        margin: 30px;
+        width: 300px;
+        
+    }
+ footer {
+        background-color: antiquewhite;
+        
+        padding: 100px 0px;
+
+    }
+    h2 .btn  .form{
+        flex-direction: column;
+    }
+    h1{
+        margin-bottom: 50px;
+    }
+    
+    .form{
+        margin-bottom: 50px;
+        border: none;
+        outline: none;
+
+    }
+      .form input{
+        padding: 8px 20px;
+        font-size: 20px;
+        width: 350px;
+        
+      }
+      
